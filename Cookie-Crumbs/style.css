@@ -29,11 +29,13 @@ hr{
     transform: rotate(270deg);
 }
 
-table, tr, th, td, caption {
+table,thead, tr, th, td{
     border: 1px solid #6b3e2e;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-collapse: collapse;
-    padding: 0.5rem;
+    padding-right: 0.5rem;
+    min-width: 200px;
+    margin-left: -150px;
 }
 
 button{
